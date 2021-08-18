@@ -1,0 +1,12 @@
+name: cromwell
+author: broadinstitute.org
+description: |
+  Cromwell
+version: 0.0.1
+services:
+  cromwell:
+    image: "broadinstitute/cromwell"
+    port: 8001
+    pdMountPath: "/data"
+    pdAccessMode: "ReadWriteOnce"
+    environment: {}
